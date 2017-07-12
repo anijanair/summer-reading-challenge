@@ -25,14 +25,14 @@ namespace Summer_Reading_Challenge.Controllers
         }
 
         // GET: Home/Create
-        public ActionResult Create()
+        public ActionResult Add()
         {
             return View();
         }
 
         // POST: Home/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Add(FormCollection collection)
         {
             try
             {
