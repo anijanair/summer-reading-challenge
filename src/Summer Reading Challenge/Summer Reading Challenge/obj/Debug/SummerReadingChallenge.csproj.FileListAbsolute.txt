@@ -65,3 +65,5 @@ C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challeng
 C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\SummerReadingChallenge.csprojResolveAssemblyReference.cache
 C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\Summer Reading Challenge.dll
 C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\Summer Reading Challenge.pdb
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\EntityFramework.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\EntityFramework.xml
