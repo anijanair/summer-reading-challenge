@@ -1,0 +1,67 @@
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\ApplicationInsights.config
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\csc.exe
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\csc.exe.config
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\csc.rsp
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\csi.exe
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\csi.rsp
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.AppContext.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\vbc.exe
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\vbc.exe.config
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\vbc.rsp
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\VBCSCompiler.exe
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Summer Reading Challenge.dll.config
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Summer Reading Challenge.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Summer Reading Challenge.pdb
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Antlr3.Runtime.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.Web.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.ApplicationInsights.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Newtonsoft.Json.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Helpers.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Mvc.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Optimization.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Razor.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.Deployment.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.Razor.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\WebGrease.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Helpers.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Mvc.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Optimization.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.Razor.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.Deployment.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\System.Web.WebPages.Razor.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Antlr3.Runtime.pdb
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Newtonsoft.Json.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.ApplicationInsights.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\bin\Microsoft.AI.Web.xml
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\SummerReadingChallenge.csprojResolveAssemblyReference.cache
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\Summer Reading Challenge.dll
+C:\Users\anija\Source\Repos\summer-reading-challenge\src\Summer Reading Challenge\Summer Reading Challenge\obj\Debug\Summer Reading Challenge.pdb
