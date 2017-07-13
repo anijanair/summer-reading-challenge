@@ -6,13 +6,12 @@
 //    Manual changes to this file will be overwritten if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
 
 namespace Summer_Reading_Challenge.Models
 {
-    using System;
-    using System.Collections.Generic;
-    
-    public partial class Book
+    public class Book
     {
         public int Id { get; set; }
         public System.DateTime Date { get; set; }

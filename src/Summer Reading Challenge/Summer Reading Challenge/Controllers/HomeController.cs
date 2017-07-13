@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Data.Entity;
 using System.Linq;
-using System.Web;
+using System.Net;
 using System.Web.Mvc;
 using Summer_Reading_Challenge.Models;
+
 
 namespace Summer_Reading_Challenge.Controllers
 {
     public class HomeController : Controller
     {
-        private BooksDBEntities _entities = new BooksDBEntities();
+        private BookContext _entities = new BookContext();
 
 
         // GET: Home
@@ -18,11 +18,23 @@ namespace Summer_Reading_Challenge.Controllers
             return View(_entities.Books.ToList());
         }
 
-        // GET: Home/Details/5
-        public ActionResult Details(int id)
+        // GET: Home/Details
+        //If Id or book is null, return bad request or HTTP not found response. 
+        //If not, find the id and display it.
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Book book = _entities.Books.Find(id);
+            if (book == null)
+            {
+                return HttpNotFound();
+            }
+            return View(book);
         }
+
 
         // GET: Home/Create
         public ActionResult Add()
@@ -30,64 +42,89 @@ namespace Summer_Reading_Challenge.Controllers
             return View();
         }
 
+
         // POST: Home/Create
+        // Using Bind to limit the fields available for CRUD activity.
         [HttpPost]
-        public ActionResult Add(FormCollection collection)
+        public ActionResult Add([Bind(Exclude = "Id")]Book book)
         {
-            try
+            if(ModelState.IsValid)
             {
-                // TODO: Add insert logic here
+                _entities.Books.Add(book); 
+
+                _entities.SaveChanges();
+
+                return RedirectToAction("Index");
+            }           
+            
+                return View(book);
+            
+        }
+
+        // GET: Home/Edit
+        public ActionResult Edit(int? id)
+
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Book book = _entities.Books.Find(id);
+
+            if (book == null)
+            {
+                return HttpNotFound();
+            }
+            return View(book);
+        }
+
+        // POST: Home/Edit
+        [HttpPost]
+        public ActionResult Edit([Bind(Include = "Id,Date,BookTitle,Author")] Book book)
+        {
+            if (ModelState.IsValid)
+            {
+                _entities.Entry(book).State = EntityState.Modified;
+
+                _entities.SaveChanges();
 
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            
+                return View(book);
         }
+        // GET: Home/Delete
+        public ActionResult Delete(int? id)
 
-        // GET: Home/Edit/5
-        public ActionResult Edit(int id)
         {
-            return View();
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Book book = _entities.Books.Find(id);
+
+            if (book == null)
+            {
+                return HttpNotFound();
+            }
+            return View(book);
         }
 
-        // POST: Home/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Home/Delete/5
+        // POST: Home/Delete
+        [HttpPost, ActionName("Delete")]
         public ActionResult Delete(int id)
         {
-            return View();
-        }
+            Book book = _entities.Books.Find(id);
 
-        // POST: Home/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+            _entities.Books.Remove(book);
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+            _entities.SaveChanges();
+
+          return RedirectToAction("Index");
+
+
         }
+        
     }
 }
