@@ -183,6 +183,7 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
+  color:green
 }
 
 button[disabled],
@@ -311,11 +312,12 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.428571429;
-  color: #333333;
-  background-color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #dbffa4;
+    padding: inherit;
 }
 
 input,
@@ -335,14 +337,17 @@ textarea {
 }
 
 a {
-  color: #428bca;
-  text-decoration: none;
+    font-size: 16px;
+    color: #ef3507;
+    text-decoration: none;
+    padding-bottom: 100px;
 }
 
 a:hover,
 a:focus {
   color: #2a6496;
   text-decoration: underline;
+  
 }
 
 a:focus {
@@ -473,9 +478,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
 }
 
 h1 small,
@@ -4505,9 +4511,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #080808;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #999999;
-}
+    .navbar-inverse .navbar-brand {
+        color: yellow;
+    }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {

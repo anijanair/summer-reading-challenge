@@ -14,7 +14,7 @@ namespace Summer_Reading_Challenge.Models
     public class Book
     {
         public int Id { get; set; }
-        public System.DateTime Date { get; set; }
+        public System.DateTime Date{ get; set; }
         public string BookTitle { get; set; }
         public string Author { get; set; }
     }

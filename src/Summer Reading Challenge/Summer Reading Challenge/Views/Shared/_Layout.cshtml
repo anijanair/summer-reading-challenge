@@ -1,14 +1,24 @@
-﻿<!DOCTYPE html>
+﻿
+@*@model Summer_Reading_Challenge.Models.Book
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Index</h3>*@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
+    
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
+        
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -20,8 +30,6 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                   
                 </ul>
             </div>
         </div>
@@ -30,12 +38,19 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>" Read, read, read. " —William Faulkner</p>
+            <h4>" Read, read, read. " —William Faulkner</h4>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/bootstrap-datepicker.min.js")
+    <script>
+        $('input.datepicker').datepicker({
+            format: 'm/d/yyyy'
+        });
+    </script>
+
 </body>
 </html>
