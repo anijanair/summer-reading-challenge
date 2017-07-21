@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Add";
 }
+    @*Add form that accepts entries for Date, Book Title and Author*@
 
 <h3>Add Book</h3>
 
@@ -11,9 +12,10 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @*DATE*@
         <div class="form-group">
             @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -22,6 +24,7 @@
             </div>
         </div>
 
+        @*BOOK TITLE*@
         <div class="form-group">
             @Html.LabelFor(model => model.BookTitle, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -30,6 +33,7 @@
             </div>
         </div>
 
+        @*AUTHOR*@
         <div class="form-group">
             @Html.LabelFor(model => model.Author, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -38,6 +42,7 @@
             </div>
         </div>
 
+        @*'Add' Button*@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Add" class="btn btn-default" />
@@ -45,6 +50,7 @@
         </div>
     </div>
 }
+    @*To return to Index page*@ 
 
 <div>
     @Html.ActionLink("Back to List", "Index")

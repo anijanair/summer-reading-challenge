@@ -3,6 +3,7 @@
 @{
     ViewBag.Title = "Edit";
 }
+@*Edit form that displays the entry whose fields are to be edited*@
 
 <h3>Edit</h3>
 
@@ -15,6 +16,7 @@
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.Id)
 
+        @*DATE*@
         <div class="form-group">
             @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -23,6 +25,7 @@
             </div>
         </div>
 
+        @*BOOK TITLE*@
         <div class="form-group">
             @Html.LabelFor(model => model.BookTitle, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -31,6 +34,7 @@
             </div>
         </div>
 
+        @*AUTHOR*@
         <div class="form-group">
             @Html.LabelFor(model => model.Author, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -38,7 +42,7 @@
                 @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        @*'SAVE BUTTON'*@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Save" class="btn btn-default" />

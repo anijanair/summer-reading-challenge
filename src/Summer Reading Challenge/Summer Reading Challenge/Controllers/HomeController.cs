@@ -18,25 +18,8 @@ namespace Summer_Reading_Challenge.Controllers
             return View(_entities.Books.ToList());
         }
 
-        // GET: Home/Details
-        //If Id or book is null, return bad request or HTTP not found response. 
-        //If not, find the id and display it.
-        //public ActionResult Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    Book book = _entities.Books.Find(id);
-        //    if (book == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(book);
-        //}
 
-
-        // GET: Home/Create
+        // GET: Home/Add
         public ActionResult Add()
         {
             return View();

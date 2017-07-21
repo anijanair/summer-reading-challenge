@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Summer_Reading_Challenge.Models.Book>
+﻿
+@model IEnumerable<Summer_Reading_Challenge.Models.Book>
 
 @{
     ViewBag.Title = "Index";
@@ -6,9 +7,14 @@
 
 <h3>Index</h3>
 
+@*'Add Book' button *@
 <p>
-    @Html.ActionLink("Add Book", "Add")
+    <a href="@Url.Action("Add")" class="btn btn-success btn-sm">
+        <span class="hidden-xs">Add Book</span> <span class="glyphicon glyphicon-plus"></span>
+    </a>
 </p>
+
+@*Using html.displaynamefor to display column titles *@
 <table class="table">
     <tr>
         <th>
@@ -23,6 +29,7 @@
         <th></th>
     </tr>
 
+    @*Loop through each Book to include Edit and Delete options for each item *@
 @foreach (var item in Model) {
     <tr>
         <td>
